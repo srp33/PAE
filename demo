@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#####################################################
+# This demo script is written for bash, which is 
+# available on most Linux systems. However, a similar
+# script could easily be written in Windows.
+#####################################################
+
+# Start the virtual machine via Vagrant
+#vagrant up
+
+# Install software within the virtual machine
+#vagrant ssh -- ./install
+
+vagrant ssh -- ./update_git
+vagrant ssh -- ./analyze
