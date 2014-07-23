@@ -11,7 +11,9 @@ The following software must be downloaded and installed manually.
 
 2. Vagrant (<http://www.vagrantup.com>).
 
-# Executing the following steps at the command line
+# Demo
+
+Execute these steps at the command line.
 
 ```
 vagrant up # Start the virtual machine via Vagrant
