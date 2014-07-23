@@ -23,6 +23,10 @@ vagrant ssh -- ./install # Install software within the virtual machine
 vagrant ssh -- ./update_git # Update the Git repository within the virtual machine
 
 vagrant ssh -- ./analyze # Execute the analysis
+
+vagrant package --output demo.box # Package the virtual machine in a binary file
+
+vagrant destroy -f # Stop the virtual machine
 ```
 
 To modify the analysis, you would update the "analyze" script, which is part of the Git repository at https://github.com/srp33/PAE_Analysis

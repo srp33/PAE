@@ -12,6 +12,14 @@ vagrant up
 # Install software within the virtual machine
 vagrant ssh -- ./install
 
-# Update the Git repository within the virtual machine and execute the analysis script from PAE_Analysis
+# Update the Git repository within the virtual machine
 vagrant ssh -- ./update_git
+
+# Execute the analysis
 vagrant ssh -- ./analyze
+
+# Package the virtual machine in a binary file
+vagrant package --output demo.box
+
+# Stop the virtual machine
+vagrant destroy -f
