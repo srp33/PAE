@@ -1,8 +1,0 @@
-#!/bin/bash
-
-versionDir=$(python code/CreateVersionDir.py Versions)
-
-cp -r Results/* $versionDir/
-cp -r Figures $versionDir/
-cp -r code $versionDir/
-cp -r scripts $versionDir/
