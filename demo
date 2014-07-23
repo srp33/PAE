@@ -7,10 +7,11 @@
 #####################################################
 
 # Start the virtual machine via Vagrant
-#vagrant up
+vagrant up
 
 # Install software within the virtual machine
-#vagrant ssh -- ./install
+vagrant ssh -- ./install
 
+# Update the Git repository within the virtual machine and execute the analysis script from PAE_Analysis
 vagrant ssh -- ./update_git
 vagrant ssh -- ./analyze
