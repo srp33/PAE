@@ -1,7 +1,7 @@
 PAE
 ===
 
-Example of how to create a Portable Analytical Environment.
+Example of how to create a Portable Analytical Environment. I have tested these steps on Windows 7 and CentOS 6 Linux. But they should work on practically any operating system. Let me know if you have questions.
 
 # Prerequisite software
 
