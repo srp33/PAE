@@ -13,7 +13,11 @@ The following software must be downloaded and installed manually.
 
 # Demo
 
-Execute these steps at the command line.
+1. Download "Vagrantfile" from this repository to your local computer.
+
+2. Open a command prompt / terminal window on the computer and navigate to the directory where "Vagrantfile" is stored.
+
+3. Execute the following steps at the command line.
 
 ```
 vagrant up # Start the virtual machine via Vagrant
